@@ -21,6 +21,7 @@ class Post(models.Model):
     #标题
     title = models.TextField()
 
+    body = models.TextField()
     #文章创建时间和最后修改时间
     create_time = models.DateField()
     modified_time = models.DateField()
@@ -31,6 +32,5 @@ class Post(models.Model):
     #类型关联,标题关联
     category =models.ForeignKey(Category,on_delete=models.CASCADE)
     tags = models.ManyToManyField(Tag,blank=True)
-
     #作者
     author = models.ForeignKey(User,on_delete=models.CASCADE)
