@@ -16,6 +16,10 @@
     <content url="file://$MODULE_DIR$" />
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="highlightjs-line-numbers" level="application" />
+    <orderEntry type="library" name="highlight" level="application" />
+    <orderEntry type="library" name="ionicons" level="application" />
+    <orderEntry type="library" name="github" level="application" />
   </component>
   <component name="TemplatesService">
     <option name="TEMPLATE_CONFIGURATION" value="Django" />
@@ -23,6 +27,7 @@
       <list>
         <option value="$MODULE_DIR$/templates" />
         <option value="$MODULE_DIR$/templates/blog" />
+        <option value="$MODULE_DIR$/templates/comments" />
       </list>
     </option>
   </component>
